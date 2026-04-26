@@ -14,6 +14,7 @@ import sys
 import msvcrt  # Only works on Windows for keyboard input like getch()
 
 def calculate_voltage():
+    print("\n")
     print("CALCULATE VOLTAGE")
     try:
         amps = float(input("Enter The Current Value in Amps: "))
@@ -27,6 +28,7 @@ def calculate_voltage():
         print("Invalid input! Please enter a valid positive number.")
 
 def calculate_current():
+    print("\n")
     print("CALCULATE CURRENT")
     try:
         volts = float(input("Enter The Voltage Value in Volts: "))
@@ -40,6 +42,7 @@ def calculate_current():
         print("Invalid input! Please enter a valid positive number.")
 
 def calculate_resistance():
+    print("\n")
     print("CALCULATE RESISTANCE")
     try:
         volts = float(input("Enter The Voltage Value in Volts: "))
@@ -81,6 +84,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 # Python switch ... case
 # def switch_example(value):
